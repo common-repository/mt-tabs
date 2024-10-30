@@ -1,0 +1,23 @@
+/*Bootstrap*/
+.fade{transition: opacity .15s linear;opacity: 0;}
+.fade.in{opacity:1}
+.collapse{height: 0;overflow: hidden;}
+.collapse.in{height: auto;overflow: inherit;}
+.collapsing{position:relative;height:0;overflow:hidden;-webkit-transition:height .35s ease;transition:height .35s ease;}
+/*tabs*/
+.tab-pane{height: 0;overflow: hidden;}
+.tab-pane.active{height: auto;overflow: inherit;}
+
+.collapse_cnt,ul.tabs{padding-left: 0;margin-bottom: 20px;}
+ul.mt-tabs{margin:0 0 -1px 0;overflow:hidden;list-style:none}
+ul.mt-tabs>li{background: none;padding-left: 0;float: left;margin-right: 5px;}
+ul.mt-tabs>li>a,.panel-title a{background: none #f1f1f1;padding: 10px 15px;border: 1px solid #e6e6e6;display: block;position: relative;cursor:pointer}
+ul.mt-tabs>li>a:hover,.panel-title a:hover{text-decoration: none;}
+ul.mt-tabs>li.active>a,.panel-title.active a{cursor:pointer;background-color: #2d73b4;border-color: #2d73b4;color: #fff;}
+.tab-content,.panel-collapse .postint_cnt{padding: 15px;border: 1px solid #e6e6e6;}
+.tab-pane.postint_cnt{margin-bottom: 0;}
+.panel-title a:before{color: #cecece;position: absolute;right: 0;top: 0;width: 40px;height: 40px;line-height: 34px;text-align: center;font-size: 30px;content: '-';}
+.panel-title.active a:before{color: #fff;content: '+';line-height: 38px;}
+.panel{margin-bottom: 2px;}
+div.mt_tabs{margin-bottom:20px}
+.collapse_cnt .panel p:last-child,.mt_tabs .tab-pane p:last-child{margin-bottom:0}
